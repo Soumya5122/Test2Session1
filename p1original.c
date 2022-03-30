@@ -2,14 +2,8 @@
 #include<math.h>
 void input(float *x1,float *y1,float *x2,float *y2)
 {
-  printf("enter a number\n");
-  scanf("%f\n",x1);
-  printf("enter a number\n");
-  scanf("%f\n",y1);
-  printf("enter a number\n");
-  scanf("%f\n",x2);
-  printf("enter a number\n");
-  scanf("%f\n",y2);
+  printf("enter the numbers\n");
+  scanf("%f%f%f%f\n",x1,y1,x2,y2);
 }
 
 void find_distance(float x1,float y1,float x2,float y2,float *distance)
