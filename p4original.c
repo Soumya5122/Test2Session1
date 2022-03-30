@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-int inout()
+int input()
 {
   int num;
   printf("enter a number\n");
@@ -10,7 +10,7 @@ int inout()
 int find_fibo(int n)
 {
   int i,j,k,f;
-  if(int i=0,j=1,k;k<n-2,k++)
+  if(i=0,j=1,k,k<n-2,k++)
   {
     if(n==1)  
     {
@@ -31,14 +31,14 @@ int find_fibo(int n)
 }
 void output(int n,int is_prime)
 {
-  printf("the %dth term of fibonacci series is %d",n,f)
+  printf("the %dth term of fibonacci series is %d",n,is_prime);
 }
 int main()
 {
-  int n;
-  n=input();
+  int num;
+  num=input();
   int f;
-  f=find_fibo(n);
-  output(n,f);
+  f=find_fibo(num);
+  output(num,f);
   return 0;
 }
