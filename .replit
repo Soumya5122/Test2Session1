@@ -1,2 +1,2 @@
 language = "undefined"
-run = "gcc -g p3original.c"
+run = "gcc -g p1.c -lm"
